@@ -27,7 +27,13 @@ namespace WpfApplication1
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            Button Button = sender as Button;
+            Button.Content = "Hakuna Matata";
+        }
 
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            PanBaton.Content = "Jam jest baton!";
         }
     }
 }
